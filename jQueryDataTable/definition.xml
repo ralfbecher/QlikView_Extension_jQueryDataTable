@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExtensionObject Path="jQueryDataTable" 
+                 Label="jQuery Data Table" 
+				 Description="jQuery Data Table" 
+				 PageHeight="2000"
+				 Type="Object" >
+	<Dimension Label="Dimensions:" TargetName="Dimension" Multiple=""/>
+	<Measurement Label="Measures:" TargetName="Measure" Multiple="" />
+	<Text Label="Page Size" Type="select" Select="3,5,7,8,10,12,15,20,25,30,50" SelectLabel="3,5,7,8,10,12,15,20,25,30,50" Expression="10" />
+	<Text Label="Dimension align" Type="select" Select="jqdt-left,jqdt-center,jqdt-right" SelectLabel="left,center,right" Expression="jqdt-left" />
+	<Text Label="Measure align" Type="select" Select="jqdt-left,jqdt-center,jqdt-right" SelectLabel="left,center,right" Expression="jqdt-right" />
+    <Text Label="Measure Labels" Type="text" Expression=""/>
+    <Text Label="Number Format" Type="text" Expression="#,##0.00"/>
+    <Text Label="Responsive Design" Type="checkbox" Expression="0" />
+	<Initiate Name="Caption.Text" value="jQuery Data Table" />
+</ExtensionObject>

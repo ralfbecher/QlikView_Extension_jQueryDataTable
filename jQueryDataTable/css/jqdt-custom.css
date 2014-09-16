@@ -1,0 +1,10 @@
+.jqdt-left{ text-align: left }
+.jqdt-center{ text-align: center }
+.jqdt-right{ text-align: right }
+.dataTable td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+  font-size:12px;
+}
