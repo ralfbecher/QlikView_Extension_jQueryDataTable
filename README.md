@@ -14,8 +14,8 @@ This extension implements DataTable Plugin for jQuery: http://www.datatables.net
 Properties:
 -----------
 
-1. Dimensions       : multiple Dimensions fr underlying straight table
-2. Measures         : multiple Measures fr underlying straight table
+1. Dimensions       : multiple Dimensions for underlying straight table
+2. Measures         : multiple Measures for underlying straight table
 3. Dimension align  : Dimension cell alignment (left,center,right)
 4. Measure align    : Measure cell alignment (left,center,right)
 5. Measure Labels   : List of comma separated labels used for Measures
