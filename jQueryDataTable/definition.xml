@@ -11,6 +11,7 @@
 	<Text Label="Measure align" Type="select" Select="jqdt-left,jqdt-center,jqdt-right" SelectLabel="left,center,right" Expression="jqdt-right" />
     <Text Label="Measure Labels" Type="text" Expression=""/>
     <Text Label="Number Format" Type="text" Expression="#,##0.00"/>
-    <Text Label="Responsive Design" Type="checkbox" Expression="0" />
+    <Text Label="Responsive Design" Type="checkbox" Expression="" />
+    <Initiate Name="Chart.Text.5.Content" Value="0" />
 	<Initiate Name="Caption.Text" value="jQuery Data Table" />
 </ExtensionObject>
